@@ -18,6 +18,6 @@ function nowServing(lineNumber){
     result = [];
       for (let i = 0; i < lineNumber.length; i++){
         result.push(i + 1 + "." + lineNumber[i]);
-    
+
   } return "The line is currently :" + result.join(",");
 }
