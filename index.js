@@ -15,7 +15,7 @@ function nowServing(lineNumber){
     if (lineNumber.length === 0){
       return "The line is currently empty.";
     }
-    
+
   let result = ["The line is currently"]
   for (let i = 0; i < lineNumber.length; i++){
     result.push(lineNumber[i] + "." + newPerson[i]);
